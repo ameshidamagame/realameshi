@@ -1,0 +1,3 @@
+/* Essentials YOOtheme Pro 1.5.8; ZOOlanders https://www.zoolanders.com; Copyright (C) Joolanders, SL; http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+!function(s,i){"use strict";s.on(document,"yooessentials-form:submitted",function(o,n){n.form;n=n.response;null!=n&&n.download&&(window.location=n.download)}),s.on(document,"yooessentials-form:submitted",function(o,n){var e=n.form,n=n.response;if(null!=n&&n.message)try{var t=i.modal.alert('<div class="uk-modal-body">'+n.message+"</div>");s.on(t.$el,"hidden",function(){e.reset()})}catch(o){}}),s.on(document,"yooessentials-form:submitted",function(o,n){var n=n.response,e=(null==n?void 0:n.redirect)||{};e.to&&(n=e.timeout||0,setTimeout(function(){window.open(e.to,e.blank?"_blank":"_self")},1e3*n))})}(UIkit.util,UIkit);

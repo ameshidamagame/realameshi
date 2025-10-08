@@ -1,0 +1,3 @@
+/* Essentials YOOtheme Pro 1.5.8; ZOOlanders https://www.zoolanders.com; Copyright (C) Joolanders, SL; http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+window.yooessentialsRecaptchas||(window.yooessentialsRecaptchas=[]),window.yooessentialsRecaptchaCallbackv2=function(){window.yooessentialsRecaptchas.forEach(function(e){grecaptcha.render(e.id,{size:e.size,theme:e.theme,sitekey:e.sitekey,badge:e.badge||null,callback:e.callback||null})})};

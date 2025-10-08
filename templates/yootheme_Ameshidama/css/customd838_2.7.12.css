@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Anurati";
+    src: url("../fonts/Anurati-Regular.html") format("otf"),
+         url("../fonts/Anurati-Regular.ttf") format("ttf"),
+         url("../fonts/Anurati-Regular.woff") format("woff"),
+         url("../fonts/Anurati-Regular.eot") format("eot");
+}
+
+.kont_bot div {margin: 0 0 .7rem 0;}
+.kont_bot svg {color: #E48632;}
+
+.zg1 {font-size: 4rem; line-height: 1.1; font-weight: 600; font-family: "Anurati"; text-transform: uppercase;}
+.zg1 span {color: #E48632;}
+
+.team .el-title {font-size: 1.1rem; font-weight: 600; line-height: 1.1; padding: 0 0 .4rem 0;}
+.team .el-content {display: inline-block;}
+
+.game .el-title {font-size: 1.5rem; text-transform: uppercase; font-weight: 500; line-height: 1.1;}
+.game .uk-tab {text-transform: uppercase; font-weight: 700;}
+
+.zg_bot {font-size: 1.5rem; text-transform: uppercase; font-weight: 500; line-height: 1.1;}
+.zg_main {font-size: 2.25rem; letter-spacing: 5px; text-transform: uppercase; line-height: 1.1; color: #fff; font-family: "Anurati";}
+.zg_main span {color: #E48632;}
+
+.uk-textarea {border-bottom: 2px solid #e48632 !important; border-left: none; border-right: none; border-top: none;}
+.uk-label {border-radius: 0px;}
+
+@media screen and (max-width: 768px) {
+	.zg1 {font-size: 3rem;}
+	.zg_main {font-size: 2rem;}
+}
